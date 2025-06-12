@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Taher Travadi",
+    "role": "Full-Stack Developer",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "rating": 5,
+    "rate": 30,
+    "image": "/assets/freelancer1.png",
+    "hireLink": "#"
+  },
+  {
+    "name": "Kashyap Ambaliya",
+    "role": "UI/UX Designer",
+    "skills": ["Figma", "Adobe XD", "Sketch"],
+    "rating": 4,
+    "rate": 25,
+    "image": "/assets/freelancer2.png",
+    "hireLink": "#"
+  },
+  {
+    "name": "Jay Nakar",
+    "role": "Backend Developer",
+    "skills": ["Node.js", "Express", "MySQL"],
+    "rating": 5,
+    "rate": 35,
+    "image": "/assets/freelancer1.png",
+    "hireLink": "#"
+  }
+  
+]

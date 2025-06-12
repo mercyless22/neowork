@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoWork - Cyberpunk Freelance Marketplace</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+     
+<!-- Navbar -->
+<div id="navbar-container"></div>
+
+
+    <!-- Hero Section -->
+    <section class="hero" >
+      <div class="container hero-content row align-items-center">
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="300">
+          <h2>Find the Right Talent or Your Next Gig</h2>
+          <p>
+            Welcome to NeoWork — a cyberpunk freelance marketplace where talent
+            meets opportunity in a futuristic vibe.
+          </p>
+          <div class="btn-group">
+            <a href="/jobs" class="btn">Browse Work</a>
+            <a href="/freelancers" class="btn">Hire Freelancers</a>
+          </div>
+        </div>
+        <div
+          class="col-md-6 text-center"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
+          <img
+            src="/assets/freelancer.gif"
+            alt="Hero Graphic"
+            class="img-fluid"
+            style="
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+              padding: 20px;
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container py-5" data-aos="zoom-in" data-aos-delay="300">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="fas fa-rocket fa-3x" style="color: #332a51"></i>
+          <h4 class="mt-3">Fast Hiring</h4>
+          <p>
+            Post jobs and find talent within minutes with our advanced AI
+            matching.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-shield-alt fa-3x" style="color: #332a51"></i>
+          <h4 class="mt-3">Secure Payments</h4>
+          <p>
+            All payments are secured using smart contracts and safe crypto
+            gateways.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-users fa-3x" style="color: #332a51"></i>
+          <h4 class="mt-3">Verified Freelancers</h4>
+          <p>
+            Only the best talent verified through our futuristic profile
+            validation process.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="container py-5" data-aos="fade-up" data-aos-delay="400">
+      <h2
+        class="text-center mb-5"
+        style="color: #332a51; text-shadow: 0 0 10px #ae9ae3"
+      >
+        What People Say
+      </h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3>Shrey Khandelwal</h3>
+            <p>
+              "NeoWork helped me find my first client in under a day. The
+              interface is slick and the theme is so cool!"
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="job-card">
+            <h3>Ramesh Kumar</h3>
+            <p>
+              "Hiring is fast, simple, and futuristic. The purple cyberpunk vibe
+              makes it fun too!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+
+    <!-- Footer Placeholder -->
+    <div id="footer-container"></div>
+  
+    <!-- JS to Load Navbar and Footer -->
+    <script>
+      fetch("/header")
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById("navbar-container").innerHTML = data;
+        });
+  
+      fetch("/footer")
+        .then(res => res.text())
+        .then(data => {
+          document.getElementById("footer-container").innerHTML = data;
+        });
+    </script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 2000, once: true });
+    </script>
+  </body>
+</html>

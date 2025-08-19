@@ -55,21 +55,6 @@ Currently, only the **frontend** is completed and deployed. The **backend** is u
 Frontend is deployed using **Netlify**:  
 🔗 [https://neowork-taher.netlify.app/](https://neowork-taher.netlify.app/)  
 
-Run locally:  
-```bash
-# Clone the repository
-git clone https://github.com/mercyless22/neowork-frontend.git
-
-# Navigate into the project folder
-cd neowork-frontend
-
-# Install dependencies
-npm install
-
-# Run the app
-npm start
-````
-
 ---
 
 ## 📌 Future Scope

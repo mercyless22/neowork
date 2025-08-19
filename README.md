@@ -30,7 +30,7 @@ Currently, only the **frontend** is completed and deployed. The **backend** is u
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** React.js, HTML, CSS, Bootstrap  
+- **Frontend:** HTML, CSS, Bootstrap  
 - **Animations:** AOS (Animate on Scroll), Framer Motion (if used, confirm)  
 - **Hosting:** Netlify (frontend deployment)  
 - **Backend (In Progress):** Node.js, Express, MongoDB  
@@ -44,10 +44,16 @@ Currently, only the **frontend** is completed and deployed. The **backend** is u
   ![Homepage Screenshot](screenshots/homepage.png)  
 
 - **Browse Projects**  
-  ![Browse Projects Screenshot](screenshots/browse-projects.png)  
+  ![Browse Projects Screenshot](screenshots/jobs.png)  
 
 - **Freelancer Profile**  
-  ![Freelancer Profile Screenshot](screenshots/freelancer-profile.png)  
+  ![Freelancer Profile Screenshot](screenshots/freelancer.png) 
+
+- **About Profile**  
+  ![About Screenshot](screenshots/about.png)  
+
+- **Contact Profile**  
+  ![Contact Screenshot](screenshots/contact.png) 
 
 ---
 
@@ -82,5 +88,6 @@ This project is licensed under the **MIT License** – free to use and modify wi
 ---
 
 ⭐️ Developed by [Taher M Travadi](https://github.com/mercyless22) with ❤️
-Do you also want me to create **two separate READMEs** (one for `neowork-frontend` repo and one for `neowork-backend` once it’s ready), so they are cleanly separated?
-```
+
+---
+---
